@@ -161,6 +161,7 @@
             this.BT_Custom8.Text = "8";
             this.toolTip1.SetToolTip(this.BT_Custom8, "8");
             this.BT_Custom8.UseVisualStyleBackColor = true;
+            this.BT_Custom8.Click += new System.EventHandler(this.BT_Custom8_Click);
             // 
             // BT_Custom9
             // 
@@ -171,6 +172,7 @@
             this.BT_Custom9.Text = "9";
             this.toolTip1.SetToolTip(this.BT_Custom9, "9");
             this.BT_Custom9.UseVisualStyleBackColor = true;
+            this.BT_Custom9.Click += new System.EventHandler(this.BT_Custom9_Click);
             // 
             // BT_Custom10
             // 
@@ -181,6 +183,7 @@
             this.BT_Custom10.Text = "10";
             this.toolTip1.SetToolTip(this.BT_Custom10, "10");
             this.BT_Custom10.UseVisualStyleBackColor = true;
+            this.BT_Custom10.Click += new System.EventHandler(this.BT_Custom10_Click);
             // 
             // BT_Custom1
             // 
@@ -254,7 +257,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(207, 372);
-            this.ControlBox = false;
             this.Controls.Add(this.GB_Moods);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

@@ -298,5 +298,23 @@ namespace RichPresenceMoodSwitcher
             Update(GetValueFor(BT_Custom7));
             BT_Custom7.ForeColor = Color.Green;
         }
+
+        private void BT_Custom8_Click(object sender, EventArgs e)
+        {
+            Update(GetValueFor(BT_Custom8));
+            BT_Custom8.ForeColor = Color.Green;
+        }
+
+        private void BT_Custom9_Click(object sender, EventArgs e)
+        {
+            Update(GetValueFor(BT_Custom9));
+            BT_Custom9.ForeColor = Color.Green;
+        }
+
+        private void BT_Custom10_Click(object sender, EventArgs e)
+        {
+            Update(GetValueFor(BT_Custom10));
+            BT_Custom10.ForeColor = Color.Green;
+        }
     }
 }
