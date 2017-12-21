@@ -10,42 +10,51 @@ small image name
 small image hover text
 ----  Example End  ----
 Depressed
-393489239276519425
-woo lad
-detail ur fukin mum
-reee
-reeeee
-newimg
-reee
+392285865784639488
+Guess I'll just kill myself
+Depressed
+guessillkillmyself
+Time to hang!
+cali
+Hi it's me Cali
 ----
 Unhappy
-393489589941174272
-states are for niggas
-details are also for niggas
-lotadamage
-WOWTHATSALOTOFDAMAGE
-lewd
-mans not hot
+392285865784639488
+Awh, ok
+Unhappy
+nepsad
+Sad Nep makes me sad :/
+cali
+Hi it's me Cali
 ----
 Meh
-//
-//
-//
-///
-//
-//
-//
+392285865784639488
+Ugh, bored
+Meh
+natsukioh
+Pretty emotionless, but this image makes me happier
+cali
+Hi it's me Cali
 ----
 Happy
 392285865784639488
-Menu
-
-
-
-
-
+Woo :)
+Happy
+mega-happy
+Megumin makes everyone happy
+cali
+Hi it's me Cali
 ----
 Ecstatic
+392285865784639488
+Fuck yeah!
+Ecstatic
+iflewd
+Pretty sure this isn't accurate
+cali
+Hi it's me Cali
+---- Custom ----
+1
 //
 //
 //
@@ -53,42 +62,33 @@ Ecstatic
 //
 //
 //
----- Custom ----
-Living an a fantasy world
-392285865784639488
-Playing Around
-Wow, a mystical unicorn
-altis
-Altis is a massive cunt
-pluto
-Altis is still massive cunt
 ----
-Living an a fantasy world 2
-392285865784639488
-Playing Around 2
-Wow, a mystical unicorn 2
-altis2
-Altis is a massive cunt2
-pluto2
-Altis is still massive cunt2
+2
+//
+//
+//
+///
+//
+//
+//
 ----
-Another Test
-393489589941174272
-states are for niggas
-details are also for niggas
-lotadamage
-WOWTHATSALOTOFDAMAGE
-lewd
-mans not hot
+3
+//
+//
+//
+///
+//
+//
+//
 ----
-ANOTHER ONE
-393489239276519425
-woo lad
-detail ur fukin mum
-reee
-reeeee
-newimg
-reee
+4
+//
+//
+//
+///
+//
+//
+//
 ----
 5
 //

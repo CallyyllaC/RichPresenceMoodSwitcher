@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace RichPresenceMoodSwitcher
@@ -10,6 +12,7 @@ namespace RichPresenceMoodSwitcher
     public partial class Main : Form
     {
         private static Discord.EventHandlers handlers;
+        int LastPressed = 0;
         private Dictionary<Button, int> ButtonDict= new Dictionary<Button, int>();
         private string[] SettingsFile = null;
         public Main()
@@ -21,6 +24,10 @@ namespace RichPresenceMoodSwitcher
                 AddButtons();
                 UpdateButtonNames();
                 toolTip1.UseAnimation = true;
+                Update(GetValueFor(BT_Meh));
+                BT_Meh.ForeColor = Color.Green;
+                TaskFactory tsk = new TaskFactory();
+                tsk.StartNew(CheckForChanges);
             }
             catch (Exception e)
             {
@@ -29,6 +36,25 @@ namespace RichPresenceMoodSwitcher
                 LogError(e.Message);
                 Newwin.FormClosed += Newwin_FormClosed;
             }
+        }
+
+        private Task CheckForChanges()
+        {
+            while (true)
+            {
+                var tmp = File.ReadAllLines($"{Application.StartupPath}\\Settings.txt");
+                for (int i = 0; i < SettingsFile.Length; i++)
+                {
+                    if (!SettingsFile[i].Equals(tmp[i]))
+                    {
+                        Update(LastPressed);
+                    }
+                }
+                Thread.Sleep(30 * 1000);
+            }
+
+
+            return Task.CompletedTask;
         }
 
         private void AddButtons()
@@ -131,6 +157,7 @@ namespace RichPresenceMoodSwitcher
 
         private void Update(int id)
         {
+                
             try
             {
                 Discord.Shutdown();
@@ -139,10 +166,17 @@ namespace RichPresenceMoodSwitcher
             {
 
             }
-
             try
             {
+                OpenSettings();
+            }
+            catch
+            {
 
+            }
+            try
+            {
+                LastPressed = id;
                 Discord.RichPresence NewDisplay = new Discord.RichPresence();
 
                 Discord.Initialize(SettingsFile[id + 1], handlers);
@@ -155,7 +189,6 @@ namespace RichPresenceMoodSwitcher
                 NewDisplay.smallImageText = SettingsFile[id + 7];
 
                 Discord.UpdatePresence(NewDisplay);
-                ResetButtonColors();
             }
             catch (Exception e)
             {
@@ -234,72 +267,84 @@ namespace RichPresenceMoodSwitcher
         private void BT_Happy_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Happy));
+            ResetButtonColors();
             BT_Happy.ForeColor = Color.Green;
         }
 
         private void BT_Ecstatic_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Ecstatic));
+            ResetButtonColors();
             BT_Ecstatic.ForeColor = Color.Green;
         }
 
         private void BT_Custom1_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom1));
+            ResetButtonColors();
             BT_Custom1.ForeColor = Color.Green;
         }
 
         private void BT_Custom2_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom2));
+            ResetButtonColors();
             BT_Custom2.ForeColor = Color.Green;
         }
 
         private void BT_Custom3_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom3));
+            ResetButtonColors();
             BT_Custom3.ForeColor = Color.Green;
         }
 
         private void BT_Custom4_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom4));
+            ResetButtonColors();
             BT_Custom4.ForeColor = Color.Green;
         }
 
         private void BT_Custom5_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom5));
+            ResetButtonColors();
             BT_Custom5.ForeColor = Color.Green;
         }
 
         private void BT_Custom6_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom6));
+            ResetButtonColors();
             BT_Custom6.ForeColor = Color.Green;
         }
 
         private void BT_Custom7_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom7));
+            ResetButtonColors();
             BT_Custom7.ForeColor = Color.Green;
         }
 
         private void BT_Custom8_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom8));
+            ResetButtonColors();
             BT_Custom8.ForeColor = Color.Green;
         }
 
         private void BT_Custom9_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom9));
+            ResetButtonColors();
             BT_Custom9.ForeColor = Color.Green;
         }
 
         private void BT_Custom10_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Custom10));
+            ResetButtonColors();
             BT_Custom10.ForeColor = Color.Green;
         }
 
