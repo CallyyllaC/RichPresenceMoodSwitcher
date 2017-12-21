@@ -1,0 +1,11 @@
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\bin\x64\Release\discord-rpc.dll
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\bin\x64\Release\Settings.txt
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\bin\x64\Release\RichPresenceMoodSwitcher.exe.config
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\bin\x64\Release\RichPresenceMoodSwitcher.exe
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\bin\x64\Release\RichPresenceMoodSwitcher.pdb
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.ErrorWin.resources
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.Main.resources
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.Properties.Resources.resources
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.csproj.GenerateResource.Cache
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.exe
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.pdb
