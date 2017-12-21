@@ -23,6 +23,7 @@
 <p>When launched the file does not automatically select a mood, you will have to do this manually</p>
 <p>Each time you press a new button it does not keep existing entries, so ensure that everything you want is filled in</p>
 <p>The settings file is line number based so adding or removing lines will knock it out of sync</p>
+<p>The program reads the settings file on launch, so you need to restart the program before updates take place</p>
 <p>It may take a few moments before discord updates so be patient</p>
 <br>
 <h2>Also, more features will be coming soon!</h2>
