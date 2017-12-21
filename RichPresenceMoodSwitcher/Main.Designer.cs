@@ -263,6 +263,7 @@
             this.MaximizeBox = false;
             this.Name = "Main";
             this.Text = "Mood Presence";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
             this.GB_Moods.ResumeLayout(false);
             this.GB_Custom.ResumeLayout(false);
             this.ResumeLayout(false);

@@ -60,20 +60,6 @@ namespace RichPresenceMoodSwitcher
             }
         }
 
-        private void Update(Discord.RichPresence NewDisplay)
-        {
-            try
-            {
-                Discord.UpdatePresence(NewDisplay);
-            }
-            catch(Exception e)
-            {
-                ErrorWin Newwin = new ErrorWin($"{e.Message}. You should tell Cali about this");
-                Newwin.Show();
-                LogError(e.Message);
-            }
-        }
-
         private void ResetButtonColors()
         {
             try
@@ -315,6 +301,18 @@ namespace RichPresenceMoodSwitcher
         {
             Update(GetValueFor(BT_Custom10));
             BT_Custom10.ForeColor = Color.Green;
+        }
+
+        private void Main_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                Discord.Shutdown();
+            }
+            catch
+            {
+
+            }
         }
     }
 }
