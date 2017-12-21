@@ -7,7 +7,7 @@
 <br>
 <h3>For this part you need to be in your browser</h3>
 <ul>
-<li>Goto <a href="https://discordapp.com/developers/applications/me/"> and create an app you want your profile to say is currently playing</li>
+<li>Goto <a href="https://discordapp.com/developers/applications/me/">this link</a> and create an app you want your profile to say is currently playing</li>
 <li>Enable rich presence on your new discord app</li>
 <li>Upload your images, small and large</li>
 </ul>
@@ -22,6 +22,7 @@
 <h3>Notes</h3>
 <p>When launched the file does not automatically select a mood, you will have to do this manually</p>
 <p>Each time you press a new button it does not keep existing entries, so ensure that everything you want is filled in</p>
+<p>The settings file is line number based so adding or removing lines will knock it out of sync</p>
+<p>It may take a few moments before discord updates so be patient</p>
 <br>
 <h2>Also, more features will be coming soon!</h2>
-
