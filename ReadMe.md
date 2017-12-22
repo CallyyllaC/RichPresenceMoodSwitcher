@@ -20,7 +20,7 @@
 </ul>
 <br>
 <h3>Notes</h3>
-<p>When launched the file does not automatically select a mood, you will have to do this manually</p>
+<p><s>When launched the file does not automatically select a mood, you will have to do this manually</s></p>
 <p>Each time you press a new button it does not keep existing entries, so ensure that everything you want is filled in</p>
 <p>The settings file is line number based so adding or removing lines will knock it out of sync</p>
 <p><s>The program reads the settings file on launch, so you need to restart the program before updates take place</s></p>
