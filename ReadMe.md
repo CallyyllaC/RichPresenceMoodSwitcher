@@ -1,4 +1,4 @@
-<h1>Discord Rich Preesence Mood Switcher</h1>
+<h1>Discord Rich Presence Mood Switcher</h1>
 <br>
 <h3>This is just a small program that I made to make discord more customisable and allows you to express yourself more</h3>
 <br>
@@ -27,3 +27,6 @@
 <p>It may take a few moments before discord updates so be patient</p>
 <br>
 <h2>Also, more features will be coming soon!</h2>
+<br>
+<h3>Credits to https://github.com/agthrs/SharpPresence for Discord.cs</h3>
+<h3>Credits to my friends on discord for being my lab-rats</h3>

@@ -9,3 +9,4 @@ E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Re
 E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.csproj.GenerateResource.Cache
 E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.exe
 E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.pdb
+E:\Documents\GitHub\RichPresenceMoodSwitcher\RichPresenceMoodSwitcher\obj\x64\Release\RichPresenceMoodSwitcher.csprojResolveAssemblyReference.cache

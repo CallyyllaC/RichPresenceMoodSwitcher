@@ -52,9 +52,6 @@ namespace RichPresenceMoodSwitcher
                 }
                 Thread.Sleep(30 * 1000);
             }
-
-
-            return Task.CompletedTask;
         }
 
         private void AddButtons()
@@ -249,18 +246,21 @@ namespace RichPresenceMoodSwitcher
         private void BT_Depressed_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Depressed));
+            ResetButtonColors();
             BT_Depressed.ForeColor = Color.Green;
         }
 
         private void BT_Unhappy_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Unhappy));
+            ResetButtonColors();
             BT_Unhappy.ForeColor = Color.Green;
         }
 
         private void BT_Meh_Click(object sender, EventArgs e)
         {
             Update(GetValueFor(BT_Meh));
+            ResetButtonColors();
             BT_Meh.ForeColor = Color.Green;
         }
 
