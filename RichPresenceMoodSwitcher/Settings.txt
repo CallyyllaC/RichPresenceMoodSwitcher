@@ -2,8 +2,8 @@
 ---- Example Start ----
 button name (Can only change for custom moods)
 id (id of discord application to load from)
-state (first line of text)
-details (second line of text)
+details (first line of text)
+state (second line of text)
 large image name
 large image hover text
 small image name

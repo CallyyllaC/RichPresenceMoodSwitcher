@@ -177,8 +177,8 @@ namespace RichPresenceMoodSwitcher
                 Discord.RichPresence NewDisplay = new Discord.RichPresence();
 
                 Discord.Initialize(SettingsFile[id + 1], handlers);
-                NewDisplay.state = SettingsFile[id + 2];
-                NewDisplay.details = SettingsFile[id + 3];
+                NewDisplay.details = SettingsFile[id + 2];
+                NewDisplay.state = SettingsFile[id + 3];
                 //NewDisplay.startTimestamp = Convert.ToInt64(DateTime.Now);
                 NewDisplay.largeImageKey = SettingsFile[id + 4];
                 NewDisplay.largeImageText = SettingsFile[id + 5];
